@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Pacifico&family=Roboto:wght@500;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Tailwind Css -->
+  <link rel="stylesheet" href="output.css">
+  <title>Deltify</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-blue-900">
+    <div class="container ml-auto mr-auto">
+      <nav class="items-center py-10 relative sm:mb-14 xl:mb-24">
+        <div class="flex items-center">
+          <h1 class="logo text-4xl font-bold text-white font-['Roboto']">Deltify</h1>
+          <ul class="hidden lg:flex ml-24 ">
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">HOME</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">ABOUT</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">SERVICES</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">PAGES</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">PORTFOLIO</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">BLOG</a></li>
+            <li><a class="text-white text-base font-medium mr-10 font-['Roboto']" href="#!">CONTACT</a></li>
+          </ul>
+          <a class="hidden lg:block font-medium text-xl ml-auto text-yellow-500 underline font-['Roboto']" href="#!">SAY HI</a>
+          <button id="hamburger" class="ml-auto lg:hidden text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+              <path d="M4 7H20M4 12H20M4 17H20" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+        <div id="mobile-nav" class="lg:hidden hidden">
+          <ul class="flex flex-col items-center mr-auto ml-auto ">
+            <li><a class="text-white text-base block mt-5 mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">HOME</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">ABOUT</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">SERVICES</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">PAGES</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">PORTFOLIO</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">BLOG</a></li>
+            <li><a class="text-white text-base block mb-2 font-medium hover:text-orange-600 transition-colors font-['Roboto']" href="#!">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="grid grid-cols-1 lg:grid-cols-2 xl:pb-0">
+        <!-- Header Left -->
+        <div>
+          <h2 class="text-white text-5xl text-center mb-5 font-medium lg:text-start font-['Roboto']">Let’s Sky <span class="text-yellow-600">Rocket</span> Your <span class="text-yellow-600">Revenue</span></h2>
+          <p class="text-white text-center mb-10 lg:text-start font-['Nunito_Sans']">Lorem ipsum dolor sit amet, <span class="text-yellow-600">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt <span class="text-yellow-600">Ut labore et dolore magna aliqua. Ut enim ad minim veniam</span> Lorem ipsum dolor sit amet.</p>
+          <div class="flex sm:ml-20 sm:mr-40 md:ml-14 md:flex md:content-start ml-6 mr-6 mb-10 lg:ml-0">
+            <ul class="text-white text-sm font-semibold">
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+            </ul>
+            <ul class="ml-auto md:ml-20 text-white text-sm font-semibold">
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+              <li class="flex items-center lg:mb-[15px] font-['Nunito_Sans']">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                Tailwind Css
+              </li>
+            </ul>
+          </div>
+          <a class="block text-white font-['Roboto'] sm:inline-block sm:px-20 sm:py-4 text-center mr-14 ml-14 px-10 mb-16 bg-yellow-500 py-3 rounded-full lg:ml-0" href="#!">Get Started</a>
+        </div>
+        <!-- Header Right -->
+        <div>
+          <img class="hidden lg:block" src="./img/surface1@1x.png" srcset="./img/surface1@1x.png 1x, ./img/surface1@2x.png 2x" alt="Header Image">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Section Store -->
+  <section class="bg-[url('./img/store-bg.png')] pt-[50px] pb-[130px]">
+    <div class="container mx-auto lg:flex">
+      <!-- section left -->
+      <div class="mb-4 md:w-[100%]">
+        <img class="md:mx-auto" src="./img/store@1x.png" srcset="./img/store@1x.png 1x, ./img/store@2x.png 2x" alt="">
+      </div>
+      <!-- section right -->
+      <div class="lg:mt-10">
+        <p class="text-yellow-500 text-center text-[15px] font-bold lg:text-start lg:mb-[15px] font-['Nunito_Sans']">Expert store designing</p>
+        <h2 class="text-black/80 text-3xl text-center mb-5 font-extrabold lg:text-start lg:mb-[12px] font-['Nunito_Sans']"><span class="text-yellow-500">Shopify</span> stores that are proven in its <span class="text-yellow-500">Power</span> to convert</h2>
+        <p class="text-[#979797] text-center mb-10 lg:text-start lg:mb-[20px] font-['Nunito_Sans']">There are enough stresses involved in running a successful ecommerce site - the design and efficacy of your store shouldn't be one of them</p>
+        <div class="flex sm:ml-20 sm:mr-40 md:ml-14 md:flex md:content-start ml-6 mr-6 mb-10 lg:ml-0">
+          <ul class="text-[#262626] text-sm font-semibold">
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+          </ul>
+          <ul class="ml-auto md:ml-20 text-[#262626] text-sm font-semibold">
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+            <li class="flex items-center font-['Nunito_Sans'] lg:mb-[15px]">
+              <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+              </svg>
+              Tailwind Css
+            </li>
+          </ul>
+        </div>
+        <a class="block font-['Rubik'] text-lg text-white font-bold sm:inline-block sm:px-20 sm:py-4 text-center mr-14 ml-14 px-[35px] py-[15px] mb-16 bg-yellow-500 rounded-[4px] lg:ml-0" href="#!">Read More</a>
+      </div>
+    </div>
+  </section>
+  <!-- Section Paskages -->
+  <section class="pb-[160px]">
+    <p class="text-yellow-500 text-center text-sm mb-[15px] font-['Nunito_Sans']">Packages</p>
+    <h2 class="text-center text-3xl font-bold mb-10 font-['Nunito_Sans']">Choose The Package That's <span class="text-yellow-500">Right For You!</span></h2>
+    <div>
+      <ul class="grid grid-cols-1 sm:flex sm:flex-wrap lg:grid lg:grid-cols-3 lg:gap-10">
+        <li class="flex flex-col mx-auto mb-10 pt-[44px] pb-[34px] px-3.5 bg-[#FCFAED] rounded-[21px] w-[80%] sm:w-[300px] md:w-[350px] lg:w-[95%]">
+          <span class="bg-[#294199] h-[6px] w-[80%] rounded-b-[10px] text-center mx-auto mt-[-44px] mb-[44px]"></span>
+          <h3 class="text-[#294199] text-[30px] text-center mb-2.5 font-['Pacifico']">Simplify</h3>
+          <p class="text-[40px] font-['Nunito_Sans'] font-bold text-center"><sup>$</sup> 299</p>
+          <p class="text-[#9D9D9D] text-center text-[17px] font-normal mb-[33px]">In This Package</p>
+          <ul class="text-[#262626] text-sm font-semibold mb-24 md:mb-0">
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                PREMIUM THEME
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                FREE BRANDED LOGO & BANNER
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                5 TRENDING PRODUCTS
+              </li>
+          </ul>
+          <a class="block font-['Rubik'] text-[18px] px-[46px] text-center py-2.5 rounded-[154px] border-[2px] border-[#F79E0E] text-yellow-500 w-auto mx-10 sm:mx-4 sm:mt-auto" href="#!">Buy Now</a>
+        </li>
+        <li class="flex flex-col mx-auto mb-10 pt-[44px] pb-[34px] px-3.5 bg-[#294199] rounded-[21px] w-[80%] sm:w-[300px] md:w-[350px] lg:w-[95%]">
+          <span class="bg-yellow-500 h-[6px] w-[80%] rounded-b-[10px] text-center mx-auto mt-[-44px] mb-[44px]"></span>
+          <p class="text-[15px] text-white mb-2 text-center font-bold font-['Nunito_Sans']">Most Popular</p>
+          <h3 class="text-[#F3AA17] text-[30px] text-center mb-2.5 font-['Pacifico']">Blendify</h3>
+          <p class="text-[#F3AA17] font-['Nunito_Sans'] text-[40px] font-bold text-center"><sup>$</sup> 299</p>
+          <p class="text-white text-center text-[17px] font-normal mb-[33px] font-['Nunito_Sans']">In This Package</p>
+          <ul class="text-[#262626] text-sm font-semibold mb-[185px] md:mb-0">
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                PREMIUM THEME
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                FREE BRANDED LOGO & BANNER
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                5 TRENDING PRODUCTS
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                PREMIUM THEME
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                FREE BRANDED LOGO & BANNER
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                5 TRENDING PRODUCTS
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-white items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                5 TRENDING PRODUCTS
+              </li>
+          </ul>
+          <a class="block font-['Rubik'] px-[46px] text-center py-2.5 rounded-[154px] border-[2px] border-[#F79E0E] bg-[#F79E0E] text-[18px] text-white w-auto mx-10 sm:mx-4 sm:mt-auto" href="#!">Buy Now</a>
+        </li>
+        <li class="flex flex-col mx-auto mb-10 pt-[44px] pb-[34px] px-3.5 bg-[#FCFAED] rounded-[21px] w-[80%] sm:w-[300px] md:w-[350px] lg:w-[95%]">
+          <span class="bg-[#294199] h-[6px] w-[80%] rounded-b-[10px] text-center mx-auto mt-[-44px] mb-[44px]"></span>
+          <h3 class="text-[#294199] text-[30px] text-center mb-2.5 font-['Pacifico']">Rockify</h3>
+          <p class="text-[40px] font-['Nunito_Sans'] font-bold text-center"><sup>$</sup> 299</p>
+          <p class="text-[#9D9D9D] font-['Nunito_Sans'] text-center text-[17px] font-normal mb-[33px]">In This Package</p>
+          <ul class="text-[#262626] text-sm font-semibold mb-[185px] md:mb-0">
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                UNIQUE PREMIUM DESIGN
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                FREE BRANDED LOGO & BANNER
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                PSYCHOLOGICAL TRIGGERS 
+FOR MAXIMUM SALES
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                SKYROCKET SALES BOOSTING 
+TECHNIQUES
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                OPTIMAL CONVERSION 
+OPTIMIZATION
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                PROFIT MAXIMIZATION APPS
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                30 HOT SELLING PRODUCTS
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                FREE BRANDED LOGO & BANNER
+              </li>
+              <li class="flex mb-5 font-['Nunito_Sans'] text-[#6A6A6A] items-center lg:mb-[15px] text-[14px] font-semibold">
+                <svg class="mr-2 fill-yellow-500" color="white" xmlns="http://www.w3.org/2000/svg" width="15" stroke="#F79E0E" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.499 60.499" style="enable-background:new 0 0 60.499 60.499;" xml:space="preserve">
+                  <path d="M58.968,12.734c-2.193-2.423-5.936-2.608-8.359-0.415L24.481,35.975L9.991,22.218c-2.371-2.25-6.117-2.152-8.366,0.218   c-2.249,2.37-2.152,6.115,0.218,8.365l18.208,17.283c1.145,1.088,2.609,1.627,4.072,1.627c0.822,0,1.643-0.176,2.406-0.516   c0.885-0.232,1.729-0.674,2.455-1.332l29.568-26.771C60.976,18.899,61.161,15.157,58.968,12.734z"/>
+                </svg>
+                1 YEAR SUPPORT
+              </li>
+          </ul>
+          <a class="block font-['Rubik'] text-[18px] px-[46px] text-center py-2.5 rounded-[154px] border-[2px] border-[#F79E0E] text-yellow-500 w-auto mx-10 sm:mx-4" href="#!">Buy Now</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Section -->
+  <section class="bg-[url('./img/store-bg.png')] pb-[166px] pt-[69px]">
+    <div class="container mx-auto">
+      <!-- Section About -->
+      <div class="lg:flex">
+        <div>
+          <p class="text-[15px] text-center text-yellow-500 mb-[15px] font-bold lg:text-start font-['Nunito_Sans']">More we offer!</p>
+          <h2 class="text-[#404041] text-center mb-[15px] font-extrabold text-[30px] sm:w-[80%] mx-auto lg:text-start lg:ml-0 font-['Nunito_Sans']">Engaging video ads which will explode your <span class="text-yellow-500r">Sales</span></h2>
+          <p class="text-[#979797] text-center text-base font-normal mb-[15px] sm:w-[80%] mx-auto lg:text-start lg:ml-0 font-['Nunito_Sans']">We offers whitening in a professional Solid Brush for fast, safe, and effective results after 10 days.</p>
+          <p class="flex items-center text-center text-[33px] font-medium text-yellow-500 mb-[15px] md:ml-[20%] lg:ml-0 font-['Roboto']">$ 65.00  EUR <span class="text-[#707070] text-sm ml-5">$ 120.00 EUR</span></p>
+          <ul class="mb-5 md:ml-[20%] lg:ml-0">
+            <li class="flex mb-2.5 text-[#979797] font-normal text-sm font-['Nunito_Sans']">
+              <svg class="mr-3 fill-[#F79E0E]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <g>
+                <g>
+                  <g>
+                    <rect x="132.083" y="55.882" width="15.694" height="312.191"/>
+                    <path d="M427.949,0h-288.02c-30.81,0-55.877,25.067-55.877,55.877v400.246c0,30.811,25.066,55.877,55.877,55.877h288.02v-87.897     h-15.694v72.202H139.928c-22.156,0-40.183-18.025-40.183-40.183s18.026-40.183,40.183-40.183h288.02V0z M412.254,400.246H147.776     v-16.167h-15.694v16.732c-12.611,1.781-23.887,7.773-32.336,16.522V55.877c0-19.471,13.923-35.747,32.336-39.407v23.397h15.694     V15.694h264.479V400.246z"/>
+                    <path d="M139.928,439.956v-15.694c-17.569,0-31.862,14.293-31.862,31.862c0,17.568,14.293,31.862,31.862,31.862V472.29     c-8.915,0-16.167-7.253-16.167-16.167S131.014,439.956,139.928,439.956z"/>
+                    <rect x="148.092" y="424.102" width="15.694" height="64.043"/>
+                    <rect x="171.947" y="424.259" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="448.272" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="472.294" width="232.14" height="15.694"/>
+                    <rect x="235.99" y="360.227" width="88.056" height="15.694"/>
+                    <path d="M371.913,40.025H188.116v143.774h183.797V40.025z M356.219,168.104H203.811V55.719h152.409V168.104z"/>
+                    <rect x="219.982" y="72.044" width="120.072" height="15.694"/>
+                    <rect x="219.982" y="104.064" width="88.056" height="15.694"/>
+                    <rect x="219.982" y="136.08" width="72.044" height="15.694"/>
+              </svg>
+              2-minute timer with 30-second pulses
+            </li>
+            <li class="flex mb-2.5 text-[#979797] font-normal text-sm font-['Nunito_Sans']">
+              <svg class="mr-3 fill-[#F79E0E]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <g>
+                <g>
+                  <g>
+                    <rect x="132.083" y="55.882" width="15.694" height="312.191"/>
+                    <path d="M427.949,0h-288.02c-30.81,0-55.877,25.067-55.877,55.877v400.246c0,30.811,25.066,55.877,55.877,55.877h288.02v-87.897     h-15.694v72.202H139.928c-22.156,0-40.183-18.025-40.183-40.183s18.026-40.183,40.183-40.183h288.02V0z M412.254,400.246H147.776     v-16.167h-15.694v16.732c-12.611,1.781-23.887,7.773-32.336,16.522V55.877c0-19.471,13.923-35.747,32.336-39.407v23.397h15.694     V15.694h264.479V400.246z"/>
+                    <path d="M139.928,439.956v-15.694c-17.569,0-31.862,14.293-31.862,31.862c0,17.568,14.293,31.862,31.862,31.862V472.29     c-8.915,0-16.167-7.253-16.167-16.167S131.014,439.956,139.928,439.956z"/>
+                    <rect x="148.092" y="424.102" width="15.694" height="64.043"/>
+                    <rect x="171.947" y="424.259" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="448.272" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="472.294" width="232.14" height="15.694"/>
+                    <rect x="235.99" y="360.227" width="88.056" height="15.694"/>
+                    <path d="M371.913,40.025H188.116v143.774h183.797V40.025z M356.219,168.104H203.811V55.719h152.409V168.104z"/>
+                    <rect x="219.982" y="72.044" width="120.072" height="15.694"/>
+                    <rect x="219.982" y="104.064" width="88.056" height="15.694"/>
+                    <rect x="219.982" y="136.08" width="72.044" height="15.694"/>
+              </svg>
+              Whiter Teeth In 10 Days
+            </li>
+            <li class="flex mb-2.5 text-[#979797] font-normal text-sm font-['Nunito_Sans']">
+              <svg class="mr-3 fill-[#F79E0E]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <g>
+                <g>
+                  <g>
+                    <rect x="132.083" y="55.882" width="15.694" height="312.191"/>
+                    <path d="M427.949,0h-288.02c-30.81,0-55.877,25.067-55.877,55.877v400.246c0,30.811,25.066,55.877,55.877,55.877h288.02v-87.897     h-15.694v72.202H139.928c-22.156,0-40.183-18.025-40.183-40.183s18.026-40.183,40.183-40.183h288.02V0z M412.254,400.246H147.776     v-16.167h-15.694v16.732c-12.611,1.781-23.887,7.773-32.336,16.522V55.877c0-19.471,13.923-35.747,32.336-39.407v23.397h15.694     V15.694h264.479V400.246z"/>
+                    <path d="M139.928,439.956v-15.694c-17.569,0-31.862,14.293-31.862,31.862c0,17.568,14.293,31.862,31.862,31.862V472.29     c-8.915,0-16.167-7.253-16.167-16.167S131.014,439.956,139.928,439.956z"/>
+                    <rect x="148.092" y="424.102" width="15.694" height="64.043"/>
+                    <rect x="171.947" y="424.259" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="448.272" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="472.294" width="232.14" height="15.694"/>
+                    <rect x="235.99" y="360.227" width="88.056" height="15.694"/>
+                    <path d="M371.913,40.025H188.116v143.774h183.797V40.025z M356.219,168.104H203.811V55.719h152.409V168.104z"/>
+                    <rect x="219.982" y="72.044" width="120.072" height="15.694"/>
+                    <rect x="219.982" y="104.064" width="88.056" height="15.694"/>
+                    <rect x="219.982" y="136.08" width="72.044" height="15.694"/>
+              </svg>
+              Waterproof & shower-safe
+            </li>
+            <li class="flex mb-2.5 text-[#979797] font-normal text-sm font-['Nunito_Sans']">
+              <svg class="mr-3 fill-[#F79E0E]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <g>
+                <g>
+                  <g>
+                    <rect x="132.083" y="55.882" width="15.694" height="312.191"/>
+                    <path d="M427.949,0h-288.02c-30.81,0-55.877,25.067-55.877,55.877v400.246c0,30.811,25.066,55.877,55.877,55.877h288.02v-87.897     h-15.694v72.202H139.928c-22.156,0-40.183-18.025-40.183-40.183s18.026-40.183,40.183-40.183h288.02V0z M412.254,400.246H147.776     v-16.167h-15.694v16.732c-12.611,1.781-23.887,7.773-32.336,16.522V55.877c0-19.471,13.923-35.747,32.336-39.407v23.397h15.694     V15.694h264.479V400.246z"/>
+                    <path d="M139.928,439.956v-15.694c-17.569,0-31.862,14.293-31.862,31.862c0,17.568,14.293,31.862,31.862,31.862V472.29     c-8.915,0-16.167-7.253-16.167-16.167S131.014,439.956,139.928,439.956z"/>
+                    <rect x="148.092" y="424.102" width="15.694" height="64.043"/>
+                    <rect x="171.947" y="424.259" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="448.272" width="232.14" height="15.694"/>
+                    <rect x="171.947" y="472.294" width="232.14" height="15.694"/>
+                    <rect x="235.99" y="360.227" width="88.056" height="15.694"/>
+                    <path d="M371.913,40.025H188.116v143.774h183.797V40.025z M356.219,168.104H203.811V55.719h152.409V168.104z"/>
+                    <rect x="219.982" y="72.044" width="120.072" height="15.694"/>
+                    <rect x="219.982" y="104.064" width="88.056" height="15.694"/>
+                    <rect x="219.982" y="136.08" width="72.044" height="15.694"/>
+              </svg>
+              30 Day Money Back Guarantee
+            </li>
+          </ul>
+          <a class="bg-yellow-500 px-11 py-2 rounded text-[15px] font-normal text-white md:ml-[20%] lg:ml-0 font-['Rubik']" href="#!">Get It Now!</a>
+        </div>
+        <!-- Section Image -->
+        <div>
+          <img class="hidden lg:block" src="./img/More@1x.png" srcset="./img/More@1x.png 1x, ./img/More@2x.png 2x" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section -->
+  <section class="pb-[80px]">
+    <div class="container mx-auto">
+      <p class="text-[15px] text-center text-yellow-500 mb-[11px] font-bold font-['Nunito_Sans']">SITE CONTENT</p>
+      <h2 class="text-[#404041] text-center mb-[14px] font-normal text-[24px] mx-auto font-['Rubik']">Because You're Worth It!</h2>
+      <p class="text-[#979797] font-normal text-[15px] text-center mb-10 font-['Nunito_Sans']">Our product have all nature ingredients that satisfy all your needs</p>
+      <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3">
+        <div class="mb-10">
+          <img class="mb-5 mx-auto" src="./img/Rectangle1999@1x-1.jpg" alt="Reacl icons">
+          <h3 class="font-normal font-['Rubik'] text-[24px] text-center mb-3 text-[#616161]">Organic Fruits</h3>
+          <p class="w-[80%] font-['Nunito_Sans'] mx-auto text-center font-semibold text-[#949494] text-[15px] sm:w-[70%] md:w-[80%]">Our fruits are fully certified organic, grown according to international standards</p>
+        </div>
+        <div class="mb-10">
+          <img class="mb-5 mx-auto" src="./img/Rectangle1999@1x-1.jpg" alt="Reacl icons">
+          <h3 class="font-normal font-['Rubik'] text-[24px] text-center mb-3 text-[#616161]">High Quality</h3>
+          <p class="w-[80%] font-['Nunito_Sans'] mx-auto text-center font-semibold text-[#949494] text-[15px] sm:w-[70%] md:w-[80%]">Our fruits are fully certified organic, grown according to international standards</p>
+        </div>
+        <div class="mb-10">
+          <img class="mb-5 mx-auto" src="./img/Rectangle1999@1x-1.jpg" alt="Reacl icons">
+          <h3 class="font-normal font-['Rubik'] text-[24px] text-center mb-3 text-[#616161]">Best Values</h3>
+          <p class="w-[80%] font-['Nunito_Sans'] mx-auto text-center font-semibold text-[#949494] text-[15px] sm:w-[70%] md:w-[80%]">Our fruits are fully certified organic, grown according to international standards</p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- Section -->
+  <section class="bg-[#FAFBFD] pt-[40px]">
+    <div class="container mx-auto">
+      <p class="text-[15px] text-center text-yellow-500 mb-[11px] font-bold font-['Nunito_Sans']">OUR PORTFOLIO</p>
+      <h2 class="text-[#404041] text-center mb-[14px] font-normal text-[24px] mx-auto">Take A Look At Our Latest Work</h2>
+      <div>
+        <div class="text-center mb-5">
+          <button id="design" class="font-normal font-['Nunito_Sans'] text-[15px] text-[#C6C6C6] ml-1 mr-1 active">Website Design</button>
+          <button id="video" class="font-normal font-['Nunito_Sans'] text-[15px] text-[#C6C6C6] ml-1 mr-1">Advertising Videos</button>
+        </div>
+        <button id="all-content" class="mb-10 font-['Nunito_Sans'] text-[#F2AE19] font-bold text-[15px] block mx-auto">View All</button>
+      </div>
+      <div id="design-image" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-black/10 mx-auto"><span>Image</span></div>
+      </div>
+      <div id="adver-videos" class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:mb- hidden">
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+        <div class="flex justify-center items-center mb-5 xl:mb-20 w-[305px] h-[372px] border-2 rounded-[15px] border-solid border-yellow-600 mx-auto"><span>Videos</span></div>
+      </div>
+    </div>
+  </section>
+  <!-- Section -->
+  <section class="pt-[70px] pb-[50px]">
+    <div class="container mx-auto">
+      <p class="text-[15px] text-center text-yellow-500 mb-[11px] font-bold font-['Nunito_Sans']">POPURLAR QUESTIONS</p>
+      <h2 class="text-[#404041] text-center mb-[15px] font-bold text-[30px] font-['Nunito_Sans'] mx-auto">Frequently Asked Questions</h2>
+      <p class="text-center text-[15px] text-[#979797] font-normal w-[80%] font-['Nunito_Sans'] mx-auto lg:w-[60%] mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+      <div class="flex flex-col sm:flex-row sm:justify-between">
+        <div>
+          <div class="mb-[30px]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[80%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+          <div class="mb-[30px]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[80%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+          <div class="mb-[30px]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[80%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+        </div>
+        <div>
+          <div class="mb-[30px] ml-auto lg:w-[80%]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[100%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+          <div class="mb-[30px] ml-auto lg:w-[80%]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[100%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+          <div class="mb-[30px] ml-auto lg:w-[80%]">
+            <h3 class="font-bold font-['Nunito_Sans'] text-2xl text-center mb-[15px] sm:text-start">How can I lorem ipusm?</h3>
+            <p class="text-[#646464] font-['Nunito_Sans'] text-[15px] mx-auto text-center sm:text-start sm:ml-0 w-[80%] sm:w-[100%] lg:w-[100%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.</p>
+          </div>
+         
+        </div>
+         
+      </div>
+    </div>
+  </section>
+  <!-- Section -->
+  <section class="bg-[#FAFBFD] pt-[30px] pb-[47px]">
+    <div class="container mx-auto">
+      <p class="text-[15px] text-center text-yellow-500 mb-[11px] font-bold font-['Nunito_Sans']">NEWSLETTER</p>
+      <h2 class="text-[#404041] text-center mb-[15px] font-bold text-[30px] mx-auto font-['Nunito_Sans']">Subscribe Our Newsletter</h2>
+      <p class="text-center text-[15px] text-[#979797] font-normal w-[100%] mx-auto lg:w-[60%] font-['Nunito_Sans'] mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+      <form class="flex justify-center">
+        <input class="py-[13px] pl-[25px] text-[#979797] font-medium text-[13px] border-2 border-[#CECECE] border-solid rounded-l-md sm:w-[60%] font-['Nunito_Sans'] lg:w-[45%]" type="text" placeholder="Enter email...">
+        <button class="text-white font-bold text-[15px] px-[46px] py-[13px] bg-yellow-500 rounded-r-md font-['Nunito_Sans']">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-[#262A4E] pt-[66px]">
+    <div class="container mx-auto">
+      <div class="md:grid md:grid-cols-2">
+        <div>
+          <h2 class="text-[#F79E0E] font-bold text-[27px] mb-[17px] font-['Roboto']">Deltify</h2>
+          <p class="text-[#DADADA] text-[12px] font-medium mb-[27px] w-[80%] sm:w-[300px] lg:w-[50%] font-['Roboto']">Lorem ipsum dolor sit amet, consectetur adipiscing
+            sed do eiusmod tempor incididunt labore et dolore
+            magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="flex mb-10">
+            <svg class="mr-[24px] px-[7px] py-[7px] hover:bg-yellow-500 hover:fill-white rounded-full border-yellow-500 fill-yellow-500 border-2 border-solid transition-colors" width="35px" height="35px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <svg class="mr-[24px] px-[7px] py-[7px] hover:bg-yellow-500 hover:fill-white rounded-full border-yellow-500 fill-yellow-500 border-2 border-solid transition-colors" width="35px" height="35px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+            <svg class="mr-[24px] px-[7px] py-[7px] hover:bg-yellow-500 hover:fill-white rounded-full border-yellow-500 fill-yellow-500 border-2 border-solid transition-colors" width="35px" height="35px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3">
+          <!-- 1 -->
+           <div class="flex flex-col mb-5">
+            <h3 class="font-normal text-yellow-600 text-[18px] font-['Roboto'] mb-[13px]">Out Links</h3>
+            <ul class="flex flex-col">
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Home</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">About Us</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Services</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Team</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Blog</li>
+            </ul>
+           </div>
+           <!-- 2 -->
+           <div class="flex flex-col mb-5">
+            <h3 class="font-normal text-yellow-600 text-[18px] font-['Roboto'] mb-[13px]">Our Company</h3>
+            <ul class="flex flex-col">
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">About Company</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Our Testimonials</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Latest News</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Our Mission</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Get a free Quot</li>
+            </ul>
+           </div>
+           <!-- 3 -->
+           <div class="flex flex-col mb-5">
+            <h3 class="font-normal text-yellow-600 text-[18px] font-['Roboto'] mb-[13px]">Our Services</h3>
+            <ul class="flex flex-col">
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">App Developer</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Web Developer</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Graphic Designer</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">Web Solution</li>
+              <li class="text-[#DADADA] font-['Roboto'] font-medium text-[15px] mb-3">App Design</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div>
+        <div class="w-[100%] h-[1px] bg-[#F79E0E1A]"></div>
+        <p class="pt-4 pb-5 text-[12px] font-medium text-[#9e9e9e] text-center font-['Roboto']">@ Copyright 2020 <span class="text-[#F79E0E]">Deltify Designs.</span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Js -->
+  <script src="main.js"></script>
+</body>
+</html>
+
+<!-- font-family: 'Nunito_Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Rubik', sans-serif; 
+-->

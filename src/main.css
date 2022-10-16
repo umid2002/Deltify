@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  color: #F79E0E;
+  border-bottom: 2px #F79E0E solid;
+  font-weight: 700;
+}
+ 
